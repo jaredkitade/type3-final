@@ -1,38 +1,38 @@
 /*------------------------------------------------FONT-FACE------*/
 @font-face {
 	font-family: 'gotham-book';
-	src:url('Gotham-Book.woff') format('woff'),
-		url('Gotham-Book.woff2') format('woff2'),
-		url('Gotham-Book.ttf') format('truetype');	
-
+	src:url('fonts/gotham-book.eot');
+	src:url('fonts/gotham-book.woff') format('woff'),
+		url('fonts/gotham-book.woff2') format('woff2'),
+		url('fonts/gotham-book.ttf') format('truetype');	
 }
 @font-face {
 	font-family: 'gotham-bold';
-	src:url('gotham-bold.woff') format('woff'),
-		url('gotham-bold.woff2') format('woff2'),
-		url('gotham-bold.ttf') format('truetype');	
-
+	src:url('fonts/gotham-bold.eot');
+	src:url('fonts/gotham-bold.woff') format('woff'),
+		url('fonts/gotham-bold.woff2') format('woff2'),
+		url('fonts/gotham-bold.ttf') format('truetype');	
 }
 @font-face {
 	font-family: 'gotham-light';
-	src:url('gotham-light.woff') format('woff'),
-		url('gotham-light.woff2') format('woff2'),
-		url('gotham-light.ttf') format('truetype');	
-
+	src:url('fonts/gotham-light.eot');
+	src:url('fonts/gotham-light.woff') format('woff'),
+		url('fonts/gotham-light.woff2') format('woff2'),
+		url('fonts/gotham-light.ttf') format('truetype');	
 }
 @font-face {
 	font-family: 'gotham-black';
-	src:url('gotham-black.woff') format('woff'),
-		url('gotham-black.woff2') format('woff2'),
-		url('gotham-black.ttf') format('truetype');	
-
+	src:url('fonts/gotham-black.eot');
+	src:url('fonts/gotham-black.woff') format('woff'),
+		url('fonts/gotham-black.woff2') format('woff2'),
+		url('fonts/gotham-black.ttf') format('truetype');	
 }
 @font-face {
-	font-family: 'Gotham-Medium';
-	src:url('Gotham-Medium.woff') format('woff'),
-		url('Gotham-Medium.woff2') format('woff2'),
-		url('Gotham-Medium.ttf') format('truetype');	
-
+	font-family: 'gotham-medium';
+	src:url('fonts/gotham-book.eot');
+	src:url('fonts/gotham-medium.woff') format('woff'),
+		url('fonts/gotham-medium.woff2') format('woff2'),
+		url('fonts/gotham-medium.ttf') format('truetype');	
 }
 .tackle img {
 	width:1440px;
