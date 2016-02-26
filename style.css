@@ -1,7 +1,39 @@
 /*------------------------------------------------FONT-FACE------*/
-/*@font-face {
-	font-family: 
-}*/
+@font-face {
+	font-family: 'gotham-book';
+	src:url('Gotham-Book.woff') format('woff'),
+		url('Gotham-Book.woff2') format('woff2'),
+		url('Gotham-Book.ttf') format('truetype');	
+
+}
+@font-face {
+	font-family: 'gotham-bold';
+	src:url('gotham-bold.woff') format('woff'),
+		url('gotham-bold.woff2') format('woff2'),
+		url('gotham-bold.ttf') format('truetype');	
+
+}
+@font-face {
+	font-family: 'gotham-light';
+	src:url('gotham-light.woff') format('woff'),
+		url('gotham-light.woff2') format('woff2'),
+		url('gotham-light.ttf') format('truetype');	
+
+}
+@font-face {
+	font-family: 'gotham-black';
+	src:url('gotham-black.woff') format('woff'),
+		url('gotham-black.woff2') format('woff2'),
+		url('gotham-black.ttf') format('truetype');	
+
+}
+@font-face {
+	font-family: 'Gotham-Medium';
+	src:url('Gotham-Medium.woff') format('woff'),
+		url('Gotham-Medium.woff2') format('woff2'),
+		url('Gotham-Medium.ttf') format('truetype');	
+
+}
 .tackle img {
 	width:1440px;
 /*	height:829px;
@@ -27,7 +59,7 @@ body {
 	color: #CCCCCC;
 	font-family: 'gotham-book';
 	font-size: 16px;
-	src:url(Gotham-Book.woff);
+	src:url('Gotham-Book.woff');
 	overflow-x:hidden; 
 }
 table {
@@ -60,7 +92,7 @@ table th {
 #page-title {
 	font-size: 66px;
 	font-family: 'gotham-bold';
-	src:url(Gotham-Bold.woff);
+	src:url('Gotham-Bold.woff');
 	position: absolute;
 	color:#F24646;
 	z-index: 99;
@@ -75,7 +107,7 @@ h1 {
 */	font-weight: normal;
 	font-size: 60px;
 	font-family: 'gotham-bold';
-	src:url(Gotham-Bold.woff);
+	src:url('Gotham-Bold.woff');
 }
 h2 {
 	color: #F24646;
@@ -83,7 +115,7 @@ h2 {
 	font-weight: normal;
 	line-height: 1.5em;
 	font-family: 'gotham-bold';
-	src:url(Gotham-Bold.woff);
+	src:url('Gotham-Bold.woff');
 	margin-top: 0;
 }
 h3 {
@@ -92,20 +124,20 @@ h3 {
 	font-weight: normal;
 	color: #CCCCCC;
 	font-family: 'Gotham-Medium';
-	src:url(Gotham-Medium.woff);
+	src:url('Gotham-Medium.woff');
 	line-height: 1.3em;
 	margin-top: 0;
 }
 h4 {
 	font-family: 'gotham-bold';
-	src:url(Gotham-Bold.woff);
+	src:url('Gotham-Bold.woff');
 	font-weight: normal;
 	font-size: 24px;
 	margin-bottom: 20px;
 }
 h5 {
 	font-family: 'gotham-bold';
-	src:url(Gotham-Bold.woff);
+	src:url('Gotham-Bold.woff');
 	font-weight: normal;
 	font-size: 18px;
 	margin-top: 40px;
@@ -209,7 +241,7 @@ h5 {
 	color: #CCCCCC;
 	font-family: 'gotham-book';
 	font-size: 14px;
-	src:url(Gotham-Book.woff);
+	src:url('Gotham-Book.woff');
 	position: absolute;
 	left:1000px;
 	top:80px;
@@ -427,7 +459,7 @@ h5 {
 /*-------------------------------------------------------TITLE------*/
 .title {
 	font-family: 'gotham-bold';
-	src:url(Gotham-Bold.woff);
+	src:url('Gotham-Bold.woff');
 	font-size: 60px;
 	line-height: 1.4em;
 }
@@ -451,7 +483,7 @@ h5 {
 .person {
 	text-align: right;
 	font-family: 'gotham-book';
-	src:url(Gotham-Book.woff);
+	src:url('Gotham-Book.woff');
 	font-size: 22px;
 	color: #F24646;
 	height:auto;
@@ -483,7 +515,7 @@ h5 {
 }
 .name {
 	font-family: 'gotham-bold';
-	src:url(Gotham-Bold.woff);
+	src:url('Gotham-Bold.woff');
 }
 .quote-photo {
 	display: inline-block;	
@@ -529,7 +561,7 @@ h5 {
 	color: #CCCCCC;
 	font-family: 'gotham-book';
 	font-size: 14px;
-	src:url(Gotham-Book.woff);
+	src:url('Gotham-Book.woff');
 	position: absolute;
 	left:1000px;
 	top:80px;
