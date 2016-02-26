@@ -1,38 +1,38 @@
 /*------------------------------------------------FONT-FACE------*/
 @font-face {
 	font-family: 'gotham-book';
-	src:url('fonts/gotham-book.eot');
-	src:url('fonts/gotham-book.woff') format('woff'),
-		url('fonts/gotham-book.woff2') format('woff2'),
-		url('fonts/gotham-book.ttf') format('truetype');	
+	src:url('../fonts/gotham-book.eot');
+	src:url('../fonts/gotham-book.woff') format('woff'),
+		url('../fonts/gotham-book.woff2') format('woff2'),
+		url('../fonts/gotham-book.ttf') format('truetype');	
 }
 @font-face {
 	font-family: 'gotham-bold';
-	src:url('fonts/gotham-bold.eot');
-	src:url('fonts/gotham-bold.woff') format('woff'),
-		url('fonts/gotham-bold.woff2') format('woff2'),
-		url('fonts/gotham-bold.ttf') format('truetype');	
+	src:url('../fonts/gotham-bold.eot');
+	src:url('../fonts/gotham-bold.woff') format('woff'),
+		url('../fonts/gotham-bold.woff2') format('woff2'),
+		url('../fonts/gotham-bold.ttf') format('truetype');	
 }
 @font-face {
 	font-family: 'gotham-light';
-	src:url('fonts/gotham-light.eot');
-	src:url('fonts/gotham-light.woff') format('woff'),
-		url('fonts/gotham-light.woff2') format('woff2'),
-		url('fonts/gotham-light.ttf') format('truetype');	
+	src:url('../fonts/gotham-light.eot');
+	src:url('../fonts/gotham-light.woff') format('woff'),
+		url('../fonts/gotham-light.woff2') format('woff2'),
+		url('../fonts/gotham-light.ttf') format('truetype');	
 }
 @font-face {
 	font-family: 'gotham-black';
-	src:url('fonts/gotham-black.eot');
-	src:url('fonts/gotham-black.woff') format('woff'),
-		url('fonts/gotham-black.woff2') format('woff2'),
-		url('fonts/gotham-black.ttf') format('truetype');	
+	src:url('../fonts/gotham-black.eot');
+	src:url('../fonts/gotham-black.woff') format('woff'),
+		url('../fonts/gotham-black.woff2') format('woff2'),
+		url('../fonts/gotham-black.ttf') format('truetype');	
 }
 @font-face {
 	font-family: 'gotham-medium';
-	src:url('fonts/gotham-book.eot');
-	src:url('fonts/gotham-medium.woff') format('woff'),
-		url('fonts/gotham-medium.woff2') format('woff2'),
-		url('fonts/gotham-medium.ttf') format('truetype');	
+	src:url('../fonts/gotham-book.eot');
+	src:url('../fonts/gotham-medium.woff') format('woff'),
+		url('../fonts/gotham-medium.woff2') format('woff2'),
+		url('../fonts/gotham-medium.ttf') format('truetype');	
 }
 .tackle img {
 	width:1440px;
@@ -59,7 +59,6 @@ body {
 	color: #CCCCCC;
 	font-family: 'gotham-book';
 	font-size: 16px;
-	src:url('Gotham-Book.woff');
 	overflow-x:hidden; 
 }
 table {
@@ -92,7 +91,6 @@ table th {
 #page-title {
 	font-size: 66px;
 	font-family: 'gotham-bold';
-	src:url('Gotham-Bold.woff');
 	position: absolute;
 	color:#F24646;
 	z-index: 99;
@@ -107,7 +105,6 @@ h1 {
 */	font-weight: normal;
 	font-size: 60px;
 	font-family: 'gotham-bold';
-	src:url('Gotham-Bold.woff');
 }
 h2 {
 	color: #F24646;
@@ -115,7 +112,6 @@ h2 {
 	font-weight: normal;
 	line-height: 1.5em;
 	font-family: 'gotham-bold';
-	src:url('Gotham-Bold.woff');
 	margin-top: 0;
 }
 h3 {
@@ -124,20 +120,17 @@ h3 {
 	font-weight: normal;
 	color: #CCCCCC;
 	font-family: 'Gotham-Medium';
-	src:url('Gotham-Medium.woff');
 	line-height: 1.3em;
 	margin-top: 0;
 }
 h4 {
 	font-family: 'gotham-bold';
-	src:url('Gotham-Bold.woff');
 	font-weight: normal;
 	font-size: 24px;
 	margin-bottom: 20px;
 }
 h5 {
 	font-family: 'gotham-bold';
-	src:url('Gotham-Bold.woff');
 	font-weight: normal;
 	font-size: 18px;
 	margin-top: 40px;
@@ -483,7 +476,6 @@ h5 {
 .person {
 	text-align: right;
 	font-family: 'gotham-book';
-	src:url('Gotham-Book.woff');
 	font-size: 22px;
 	color: #F24646;
 	height:auto;
@@ -515,7 +507,6 @@ h5 {
 }
 .name {
 	font-family: 'gotham-bold';
-	src:url('Gotham-Bold.woff');
 }
 .quote-photo {
 	display: inline-block;	
@@ -561,7 +552,6 @@ h5 {
 	color: #CCCCCC;
 	font-family: 'gotham-book';
 	font-size: 14px;
-	src:url('Gotham-Book.woff');
 	position: absolute;
 	left:1000px;
 	top:80px;
